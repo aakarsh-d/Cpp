@@ -16,7 +16,7 @@ int main()
             {
                 for(int col=0;col<n;col++)
                 {
-                    if(col==0 || col==n-1)
+                    if(col==0 || col==row-1)
                     {
                         cout<<"*";
                     }
