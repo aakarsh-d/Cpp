@@ -4,11 +4,28 @@ int main()
 {
     int n;
     cin>>n;
-    for(int i=1;i<n;i++)
+    for(int row=0;row<n;row++)
     {
-        for(int j=n-1;j>i;j--)
+        if(row==0 || row==n-2 || row==n-1)
         {
-            cout<<" "<<"*";
+            for(int col=0;col<n-row;col++)
+            {
+            cout<<"*";
+            }
+        }
+        else
+        {
+            for(int col=1;col<n;col++)
+            {
+                if(col==1 || col==n-row)
+                {
+                    cout<<"*";
+                }
+                else
+                {
+                    cout<<" ";
+                }
+            }
         }
         cout<<endl;
     }
