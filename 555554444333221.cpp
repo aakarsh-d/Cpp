@@ -6,9 +6,9 @@ int main()
     cin>>n;
     for(int row=0;row<n;row++)
     {
-        for(int col=0;col<=row;col++)
+        for(int col=0;col<n-row;col++)
         {
-            cout<<row+1<<" ";
+            cout<<col+1<<" ";
         }
         cout<<endl;
     }
