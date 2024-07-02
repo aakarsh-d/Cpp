@@ -16,24 +16,20 @@ int main()
         cout<<arr[i]<<" ";
     }
 
+    for(int index=0;index<n;index++)
+    {
+        for(int i=index;i<n;i++)
+        {
+            if(arr[i]<arr[index]){
+            int temp=arr[i];
+            arr[i]=arr[index];
+            arr[index]=temp;
+            }
+        }
+    }
+    cout<<endl;
     for(int i=0;i<n;i++)
     {
-        
+        cout<<arr[i]<<" ";
     }
-//     for(int i=0;i<n-1;i++)
-//     {
-//         for(int j=1;j<n;j++)
-//         {
-//             if(arr[j]<arr[i]){
-//             int temp=arr[i];
-//             arr[i]=arr[j];
-//             arr[j]=temp;
-//             }
-//         }
-//     }
-//     cout<<endl;
-//     for(int i=0;i<n;i++)
-//     {
-//         cout<<arr[i]<<" ";
-//     }
 }
