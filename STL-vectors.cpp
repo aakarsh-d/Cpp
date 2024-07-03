@@ -27,6 +27,18 @@ int main()
     cout<<"After pop"<<endl;
     for(int i:v)
     {
+        cout<<i<<" "<<endl;
+    }
+
+    vector<int> a(5,1);
+    for(int i:a)
+    {
         cout<<i<<" ";
     }
+    cout<<endl;
+    vector <int> last(a);
+    for(int i:last)
+    {
+        cout<<i<<" ";
+    }    
 }
