@@ -30,7 +30,7 @@ int main()
         cout<<i<<" "<<endl;
     }
 
-    vector<int> a(5,1);
+    vector<int> a(5,100);
     for(int i:a)
     {
         cout<<i<<" ";
@@ -40,5 +40,12 @@ int main()
     for(int i:last)
     {
         cout<<i<<" ";
+
     }    
+    cout<<endl;
+    vector<int> b(a);
+    for(int i:a)
+    {
+        cout<<i<<" ";
+    }
 }
