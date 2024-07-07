@@ -22,4 +22,14 @@ int main()
     {
         cout<<i<< " ";
     }
+    deque<int> d;
+    d.push_back(2);
+    d.push_back(7);
+    d.push_back(3);
+    d.push_back(5);
+    for(int i:d)
+    {
+        cout<<i<< " ";
+    }
+
 }
