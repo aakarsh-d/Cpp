@@ -41,4 +41,13 @@ int main()
     {
         cout<<i<< " ";
     }
+    deque<int> dp;
+    dp.push_back(87);
+    dp.push_back(75);
+    dp.push_back(96);
+    dp.push_back(35);
+    for(int i:dp)
+    {
+        cout<<i<< " ";
+    }
 }
