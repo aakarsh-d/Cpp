@@ -17,7 +17,17 @@ int main()
         s.pop();
     }
     cout<<endl;
-    // s.pop();
-    // cout<<"Top element:"<<s.top()<<endl;   
     cout<<"Size :"<<s.size()<<endl; 
+    stack<string> st;
+    st.push("Deku");
+    st.push("Mr. ");   
+    st.push("hey");    
+
+    cout<<"Top element:"<<st.top()<<endl;    
+    cout<<"Size :"<<st.size()<<endl; 
+    int sqq=st.size();
+    for(int i=0;i<=sqq;i++){
+        cout<<st.top()<<" ";
+        st.pop();
+    }
 }

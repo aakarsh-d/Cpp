@@ -48,4 +48,9 @@ int main()
     {
         cout<<i<<" ";
     }
+    vector<int> c(b);
+    for(int i:c)
+    {
+        cout<<i<<" ";
+    }
 }
