@@ -53,4 +53,14 @@ int main()
     {
         cout<<i<<" ";
     }
+    cout<<endl;
+    vector<int> s;
+    s.push_back(78);
+    s.push_back(89);
+    s.push_back(45);
+    s.push_back(13);
+    for(int i:s)
+    {
+        cout<<i<<" ";
+    }
 }
