@@ -15,4 +15,16 @@ int main()
         maxi.pop();
     }
     cout<<endl;
+    priority_queue<int>maxiI;
+    maxiI.push(83);
+    maxiI.push(12);
+    maxiI.push(4);
+    maxiI.push(9);
+    int nO=maxiI.size();
+    for(int i=0;i<nO;i++)
+    {
+        cout<<maxiI.top()<<" ";
+        maxiI.pop();
+    }
+    cout<<endl;
 }
