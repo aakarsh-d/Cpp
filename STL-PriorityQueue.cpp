@@ -27,4 +27,17 @@ int main()
         maxiI.pop();
     }
     cout<<endl;
+     priority_queue<int>max;
+    max.push(5);
+    max.push(2);
+    max.push(4);
+    max.push(3);
+    int size=max.size();
+    for(int i=0;i<size;i++)
+    {
+        cout<<max.top()<<" ";
+        max.pop();
+    }
+    cout<<endl;
+    
 }
