@@ -39,5 +39,17 @@ int main()
         max.pop();
     }
     cout<<endl;
-    
+    priority_queue<int>m;
+    m.push(9);
+    m.push(8);
+    m.push(4);
+    m.push(1);
+    m.push(3);
+    int s=m.size();
+    for(int i=0;i<s;i++)
+    {
+        cout<<m.top()<<" ";
+        m.pop();
+    }
+    cout<<endl;
 }
