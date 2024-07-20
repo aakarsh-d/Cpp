@@ -52,4 +52,18 @@ int main()
         m.pop();
     }
     cout<<endl;
+    priority_queue<int>M;
+    M.push(2);
+    M.push(5);
+    M.push(4);
+    M.push(8);
+    M.push(9);
+    int si=M.size();
+    for(int i=0;i<si;i++)
+    {
+        cout<<M.top()<<" ";
+        M.pop();
+    }
+    cout<<endl;
+
 }
