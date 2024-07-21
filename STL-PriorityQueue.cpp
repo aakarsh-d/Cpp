@@ -53,7 +53,7 @@ int main()
     }
     cout<<endl;
     priority_queue<int>M;
-    M.push(2);
+    M.push(98);
     M.push(5);
     M.push(4);
     M.push(8);
@@ -63,6 +63,19 @@ int main()
     {
         cout<<M.top()<<" ";
         M.pop();
+    }
+    cout<<endl;
+    priority_queue<int>Ma;
+    Ma.push(78);
+    Ma.push(36);
+    Ma.push(14);
+    Ma.push(35);
+    Ma.push(19);
+    int siz=Ma.size();
+    for(int i=0;i<siz;i++)
+    {
+        cout<<Ma.top()<<" ";
+        Ma.pop();
     }
     cout<<endl;
 
