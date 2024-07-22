@@ -30,5 +30,14 @@ int main()
     qu.pop();
     cout<<qu.front()<<endl;
     cout<<"Size after pop"<<qu.size();
+     queue<int>que;
+    que.push(95);
+    que.push(88);
+    que.push(12);
+    cout<<"Size before pop"<<que.size()<<endl;
+    cout<<que.front()<<endl;
+    que.pop();
+    cout<<que.front()<<endl;
+    cout<<"Size after pop"<<que.size();
 
 }
