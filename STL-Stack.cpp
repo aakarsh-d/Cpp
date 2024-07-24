@@ -30,4 +30,18 @@ int main()
         cout<<st.top()<<" ";
         st.pop();
     }
+
+     cout<<"Size :"<<st.size()<<endl; 
+    stack<string> str;
+    str.push("Dj");
+    str.push("Mr. ");   
+    str.push("hey!");    
+
+    cout<<"Top element:"<<str.top()<<endl;    
+    cout<<"Size :"<<str.size()<<endl; 
+    int qq=str.size();
+    for(int i=0;i<=qq;i++){
+        cout<<str.top()<<" ";
+        str.pop();
+    }
 }
