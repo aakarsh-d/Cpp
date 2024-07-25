@@ -63,4 +63,15 @@ int main()
     {
         cout<<i<<" ";
     }
+    cout<<endl;
+
+       vector<int> sa;
+    sa.push_back(8);
+    sa.push_back(9);
+    sa.push_back(4);
+    sa.push_back(3);
+    for(int i:sa)
+    {
+        cout<<i<<" ";
+    }
 }
