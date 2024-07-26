@@ -74,4 +74,15 @@ int main()
     {
         cout<<i<<" ";
     }
+    cout<<endl;
+
+       vector<int> stt;
+    stt.push_back(3);
+    stt.push_back(7);
+    stt.push_back(2);
+    stt.push_back(1);
+    for(int i:stt)
+    {
+        cout<<i<<" ";
+    }
 }
