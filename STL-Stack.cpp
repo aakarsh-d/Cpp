@@ -4,20 +4,7 @@
 using namespace std;
 int main()
 {
-    stack<string> s;
-    s.push("hell");
-    s.push("in");   
-    s.push("Lost");    
-
-    cout<<"Top element:"<<s.top()<<endl;    
-    cout<<"Size :"<<s.size()<<endl; 
-    int sq=s.size();
-    for(int i=0;i<=sq;i++){
-        cout<<s.top()<<" ";
-        s.pop();
-    }
-    cout<<endl;
-    cout<<"Size :"<<s.size()<<endl; 
+    //  cout<<"Size :"<<s.size()<<endl; 
     stack<string> st;
     st.push("Deku");
     st.push("Mr. ");   
@@ -31,6 +18,20 @@ int main()
         st.pop();
     }
 
+    stack<string> s;
+    s.push("hell");
+    s.push("in");   
+    s.push("Lost");    
+
+    cout<<"Top element:"<<s.top()<<endl;    
+    cout<<"Size :"<<s.size()<<endl; 
+    int sq=s.size();
+    for(int i=0;i<=sq;i++){
+        cout<<s.top()<<" ";
+        s.pop();
+    }
+    cout<<endl;
+   
      cout<<"Size :"<<st.size()<<endl; 
     stack<string> str;
     str.push("Dj");
