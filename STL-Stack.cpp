@@ -44,5 +44,17 @@ int main()
     for(int i=0;i<=qq;i++){
         cout<<str.top()<<" ";
         str.pop();
+       stack<string> stri;
+    stri.push("Dj");
+    stri.push("Mr. ");   
+    stri.push("hey!");    
+
+    cout<<"Top element:"<<stri.top()<<endl;    
+    cout<<"Size :"<<stri.size()<<endl; 
+    int qqi=stri.size();
+    for(int i=0;i<=qqi;i++){
+        cout<<stri.top()<<" ";
+        stri.pop();
+    }
     }
 }
