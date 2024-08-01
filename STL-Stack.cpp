@@ -56,17 +56,17 @@ int main()
         cout<<stri.top()<<" ";
         stri.pop();
     }
-    stack<string> strin;
-    strin.push("Dj");
-    strin.push("Mr. ");   
-    strin.push("hey!");    
+    stack<string> strinn;
+    strinn.push("Dj");
+    strinn.push("Mr. ");   
+    strinn.push("hey!");    
 
-    cout<<"Top element:"<<strin.top()<<endl;    
-    cout<<"Size :"<<strin.size()<<endl; 
-    int qni=strin.size();
-    for(int i=0;i<=qni;i++){
-        cout<<strin.top()<<" ";
-        strin.pop();
+    cout<<"Top element:"<<strinn.top()<<endl;    
+    cout<<"Size :"<<strinn.size()<<endl; 
+    int qnni=strinn.size();
+    for(int i=0;i<=qnni;i++){
+        cout<<strinn.top()<<" ";
+        strinn.pop();
     }
     }
 }
