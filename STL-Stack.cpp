@@ -56,17 +56,6 @@ int main()
         cout<<stri.top()<<" ";
         stri.pop();
     }
-    stack<string> strinn;
-    strinn.push("Dj");
-    strinn.push("Mr. ");   
-    strinn.push("hey!");    
-
-    cout<<"Top element:"<<strinn.top()<<endl;    
-    cout<<"Size :"<<strinn.size()<<endl; 
-    int qnni=strinn.size();
-    for(int i=0;i<=qnni;i++){
-        cout<<strinn.top()<<" ";
-        strinn.pop();
-    }
+    
     }
 }
