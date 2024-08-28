@@ -65,24 +65,5 @@ int main()
     }
     cout<<endl;
 
-       vector<int> sa;
-    sa.push_back(8);
-    sa.push_back(9);
-    sa.push_back(4);
-    sa.push_back(3);
-    for(int i:sa)
-    {
-        cout<<i<<" ";
-    }
-    cout<<endl;
 
-       vector<int> stt;
-    stt.push_back(3);
-    stt.push_back(7);
-    stt.push_back(2);
-    stt.push_back(1);
-    for(int i:stt)
-    {
-        cout<<i<<" ";
-    }
 }
